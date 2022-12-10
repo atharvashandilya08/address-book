@@ -1,0 +1,387 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+.home-anonymous{
+    background-color: #f2f2f2;
+}
+
+.heading{
+    border: 4px solid black;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 10rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.big-heading{
+    padding: 1rem;
+    font-size: 4rem;
+    width: 40rem;
+}
+
+.small-subtitle{
+    padding-left: 1rem;
+}
+
+.brand-text{
+    font-family: 'DM Serif Display', serif;
+    margin: 3rem;
+    display: inline-block; 
+}
+
+.brand-link{
+    text-decoration: none;
+    color: #8c52ff;
+}
+.brand-link:hover{
+    color: #8c52ff;
+    text-decoration: underline;
+}
+
+.sign-in{
+    background: #797be4;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    left: 87%;
+    top: 7%;
+    
+}
+
+.book-img{
+    margin-left: 20rem;
+    margin-bottom: 12rem;
+}
+
+.navbar{
+    font-family: "Open Sans", sans-serif;
+    margin-right: 0;
+}
+
+.navbar-brand{
+    color: #8c52ff;
+}
+.navbar-brand:hover{
+    color: #8c52ff;
+    text-decoration: underline;
+}
+.nav-text{
+    color: #8c52ff;
+}
+.search-icon:hover{
+    color: #8c52ff;
+    font-size: 1.6rem;
+}
+.nav-text:hover{
+    color: #8c52ff;
+    text-decoration: underline;
+}
+
+.search-icon{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+}
+
+.groups{
+    width: 200px;
+    float: left;
+}
+
+.hamburger{
+    color:#8c52ff;
+    padding-left: 5rem;
+    padding-right: 90px;
+}
+.hamburger:hover{
+    color:#8c52ff;
+}
+
+#groups{
+    padding-right: 1.6rem;
+}
+
+.purple-text{
+    color:#8c52ff;
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.fa-bars{
+    font-size: 2rem;
+}
+
+.fa-circle-plus{
+    font-size: 3rem;
+    color:#8c52ff;
+    margin-left: 9rem;
+    margin-top: 5rem;
+}
+.first-steps-h{
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    color:#8c52ff;
+    font-size: 4rem;
+}
+
+.blue{
+    background-color: #00c2cb;
+    color: #c9e265;
+    margin-top: 2%;
+    width: 30rem;
+    height: 15rem;
+    font-family: "Open Sans", sans-serif;
+}
+.red{
+    background-color: #ff5757;
+    color: #ffde59;
+    margin-top: 2%;
+    width: 30rem;
+    height: 15rem;
+    font-family: "Open Sans", sans-serif;
+}
+.green{
+    background-color: #7ed957;
+    color: #38b6ff;
+    margin-top: 2%;
+    width: 30rem;
+    height: 15rem;
+    font-family: "Open Sans", sans-serif;
+}
+.yellow{
+    background-color: #ffde59;
+    color: #545454;
+    margin-top: 2%;
+    width: 30rem;
+    height: 15rem;
+    font-family: "Open Sans", sans-serif;
+}
+.x-large{
+    font-size: 55px;
+    padding: 1rem;
+    
+}
+.large{
+    font-size: 40px;
+    padding: 1rem;
+}
+
+.profile-about{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    
+}
+
+.profile-about img{
+    margin: -250px 10px 100px -210px;
+}
+.left-part{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    float: left;
+}
+.about-heading{
+    font-size: 4rem;
+}
+.about-subheading{
+    font-size: 1.5rem;
+}
+
+.right-part{
+    float: right;
+    padding-right: 5rem; 
+    padding-top: 2rem; 
+    width: 50rem;
+}
+
+.right-heading{
+    font-size: 2.5rem;
+}
+
+.reason{
+    font-size: 1.5rem;
+}
+
+.strengths{
+    font-size: 1.5rem;
+}
+
+.fa-react{
+    color: blue;
+}
+
+.fa-node{
+    color: green;
+}
+
+.fa-square-js{
+    color: rgb(242, 242, 109);
+}
+
+.fa-html5{
+    color: orange;
+}
+
+.fa-css3-alt{
+    color: rgb(86, 185, 247);
+}
+
+.main-page{
+    background-image: url("./images/pineapple.jpg");
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+}
+
+.contact-heading{
+    font-size: 4rem;
+}
+
+.contact-icons{
+    margin-top: 12%;
+    padding-left: 17%;
+    padding-bottom: 27%;
+    /* width: fit-content; */
+}
+.contact-box{
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 30rem;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card-heading{
+    color:#8c52ff;
+    font-size: 2.5rem;
+}
+
+.card-icon{
+    font-size: 4rem;
+    margin-top: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.fa-trash-can{
+    color: #ff5757;
+}
+.fa-pen-to-square{
+    color:#8c52ff;
+}
+
+.color-purple{
+    color:#8c52ff;
+}
+
+.add{
+    position: absolute;
+    right: 70%;
+    top: 50%;
+}
+
+.login-input{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    background-color: #f2f2f2;
+    margin-bottom: 2rem;
+}
+
+.log-in-button{
+    border: none;
+    background-color: #8c52ff;
+    font-weight: bold;
+    color: #f2f2f2;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.25rem;
+}
+
+.alternative-login-link{
+    text-decoration: none;
+    color: #f2f2f2;
+    background-color: #8c52ff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+}
+
+.log-in{
+    margin-top: 5%;
+}
+
+.or{
+    margin-bottom: 0.1%;
+}
+
+.login-icon{
+    margin-left: 5%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 15%;
+}
+
+.register-heading{
+    color: #8c52ff;
+    font-size: 4rem;
+}
+
+.circular-image{
+    border-radius: 100%;
+    width: 10%;
+    height: 10%;
+}
+
+#profile-picture{
+    margin: 1rem;
+}
+
+
+.profile{
+    margin: -5% auto;
+    border-radius: 0%;
+    width: 100%;
+    height: 25rem;
+}
+.profile-full-row{
+    margin-top: 5%;
+    background: #f2f2f2;
+    width: 70%;
+    height: 70%;
+    border: none;
+}
+.profile-half-row{
+    margin-top: 5%;
+    background: #f2f2f2;
+    width: 30%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    height: 70%;
+    border: none;
+}
+
+.save{
+    margin-left: 52rem;
+    background-color: #8c52ff;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+.discard{
+    margin-left: 10rem;
+    background-color: #ff5757;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
