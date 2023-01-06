@@ -1,0 +1,15 @@
+<%- include("partials/header") %> 
+
+<div id="search">
+    <%- include("navbar") %> 
+    <br/>
+    <div class="search-bar text-center">
+        
+        <form action="search" method="post">
+            <input type="text" name="searchInput" placeholder="Search for contacts"/>
+            <button type="submit">Search <i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
+    <br/>
+</div>
+<%- include("partials/footer") %> 

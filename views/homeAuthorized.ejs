@@ -1,0 +1,59 @@
+<%- include("partials/header") -%>
+<div id="isLoggedIn">
+    <%- include("navbar") -%>
+
+    <div class='groups'>
+        <a class="btn hamburger text-center bg-light" data-bs-toggle="collapse" href="#groups" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <i class="fa-solid fa-bars text-center"></i>
+        </a>
+        <div id="groups" class='bg-light collapse'>
+            <ul>
+                <% groups.forEach(group=>{ %>
+                    <li class='purple-text'><a href=<%= "/groups/"+group %>><%= group %></a></li>
+                <% }) %> 
+            </ul>
+            <footer>
+                <a href="/add-group"><i class="fa-solid fa-circle-plus"></i></a>
+            </footer>
+        </div>
+    
+    </div>
+    <h1 class='text-left first-steps-h'>First Steps</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="blue">
+                    <h1 class='x-large'>Add an address</h1>
+                    <h4 class='large'>Add an address into your book</h4>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="red">
+                    <h1 class='x-large'>View your book</h1>
+                    <h4 class='large'>View your book and use it</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="green">
+                    <h1 class='x-large'>Add a new group</h1>
+                    <h4 class='large'>Add a new group to sort out the people</h4>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="yellow">
+                    <h1 class='x-large'>Share them</h1>
+                    <h4 class='large'>Select an address and click it to share</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+<%- include("partials/footer") -%>

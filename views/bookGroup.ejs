@@ -1,0 +1,18 @@
+<%- include("partials/header") %>
+    <%- include("navbar") %>
+        <h1 class='purple-text text-center about-heading'>
+            <%= heading %>
+        </h1>
+        <% book.forEach(contact=>{%>
+            <span>
+                <div class="contact-box">
+                    <h3 class='card-heading'>
+                        <%= contact.name %>
+                    </h3>
+                    <form action=<%="/delete-contact/"+contact.name%> method="post">
+                        <button type="submit" class="delete-button"><i class="fa-solid fa-trash-can card-icon"></i></button>
+                    </form>
+                </div>
+            </span>
+            <%})%>
+<%- include("partials/footer") %>

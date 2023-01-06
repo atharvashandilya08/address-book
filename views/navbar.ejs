@@ -1,0 +1,34 @@
+<%- include("partials/header.ejs") -%>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/book">Address Book</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-a active" aria-current="page" href="/home"><span
+                        class='nav-text'>Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-a active" href="/about"><span class='nav-text'>About me</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-a active" href="/new-contact"><span class='nav-text'>Add a new contact</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-a active" href="/contact"><span class='nav-text'>Contact me</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-a active" href="/logout"><span class='nav-text'>Sign Out</span></a>
+                </li>
+            </ul>
+            <a href="/search" class='nav-a'><i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </a>
+        </div>
+    </div>
+</nav>
+<%-include("partials/footer.ejs")-%>

@@ -1,0 +1,50 @@
+<%- include("partials/header") %>
+    <div class="entry">
+        <%- include("navbar") %>
+            <p class="muted">NOTE: If you're editing a contact, Hitting save without typing anything or leaving the form
+                empty wouldn't change anything</p>
+            <form action="/new-contact" method="post">
+                <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="Person"
+                    class="circular-image contact-entry" id="profile-picture" />
+                <div class="container profile text-center">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <input type="text" name="name" id="full-name" placeholder='Name'
+                                class='profile-full-row' />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <input type="text" name="companyOrSchool" id="company-or-school"
+                                placeholder='Company/School' class='profile-half-row' />
+                            <input type="text" name="group" list="group" class="profile-half-row" placeholder="Group(Double click to view the list of groups)"/><datalist name="group-options" id="group" class="profile-half-row">
+                                <% groups.forEach(group=>{ %>
+                                    <option value=<%=group %> ><%= group %>
+                                    </option>
+                                    <% }) %>
+                                </datalist>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <input type="tel" name="phone" id="phone" placeholder='Phone' class='profile-half-row'
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+                            <input type="email" name="email" id="email" placeholder='Email' class='profile-half-row' />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <input type="text" name="address" id="full-address" placeholder='Address'
+                                class='profile-full-row' />
+                        </div>
+                    </div>
+                </div>
+                <br></br>
+                <br></br>
+                <br></br>
+
+                <a href="/book" class="discard">Discard</a>
+                <button type="submit" class="save">Save</button>
+            </form>
+    </div>
+    <%- include("partials/footer") %>

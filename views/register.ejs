@@ -1,0 +1,24 @@
+<%- include("partials/header") %>
+<div id="log-in" class='text-center'>
+    <h1 class="register-heading">Register</h1>
+
+    <form action="/register" method="post" class="log-in">
+        <img alt="Register with Google" src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" class="login-icon" />
+        <input type="text" class='login-input' placeholder='Username' name="username"/>
+        <br />
+        <img alt="Register with Facebook" src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" class="login-icon" />
+        <input type="email" class='login-input' placeholder='Email' name="email"/>
+        <br />
+        <img alt="Register with GitHub" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="login-icon" />
+        <input type="password" class='login-input' placeholder='Password' name="password"/>
+        <br />
+
+        <button type="submit" class='log-in-button'>Register</button>
+        <br />
+        <p class='or'>or</p>
+        <br />
+
+        <a class='alternative-login-link' href="/login">Log in with an existing account</a>
+    </form>
+</div> 
+<%- include("partials/footer") %> 
